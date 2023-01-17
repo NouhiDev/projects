@@ -19,3 +19,11 @@ function remnants_btn() {
 function rblx_btn() {
     location.href = "https://nouhidev.github.io/roblox-horrorlist/";
 }
+
+function gfx_btn() {
+    location.href = "https://www.behance.net/wolfgfx";
+}
+
+function itch_btn() {
+    location.href = "https://nouhidev.itch.io/";
+}

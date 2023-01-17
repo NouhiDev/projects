@@ -430,7 +430,7 @@
   border-radius: 25px;
   border-color: var(--primary-color);
   border-width: 2px;
-  margin: auto;
+  margin: 10px;
 }
 
 .project-title {
@@ -536,4 +536,99 @@
   transform: scale(1.1);
   color: var(--main-bg-color);
   background-color: rgb(179, 179, 179);
+}
+
+.itch {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-family: "Anonymous Pro", monospace;
+}
+
+.itch-btn {
+  margin-top: 0.2pc;
+  margin-right: 2.5pc;
+  margin-bottom: 10px;
+  margin-left: 1.1pc;
+  line-height: 0pt;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15pt;
+  padding: 20px;
+  color: var(--primary-color);
+  background-color: var(--main-bg-color);
+  border-image: none;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-top-color: var(--primary-color);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0.020833333in;
+  border-right-width: 0.020833333in;
+  border-bottom-width: 0.020833333in;
+  border-left-width: 0.020833333in;
+  height: 0in;
+  max-width: 200px;
+  border-right-color: var(--primary-color);
+  transition: transform 0.2s;
+  text-align: center;
+  border-bottom-color: var(--primary-color);
+  border-left-color: var(--primary-color);
+  justify-content: flex-end;
+  display: flex;
+  position: absolute;
+}
+
+.itch-btn:hover {
+  transform: scale(1.1);
+  color: var(--main-bg-color);
+  background-color: var(--primary-color);
+}
+
+
+.gfx {
+  border-color: rgb(92, 163, 255);
+  color: rgb(92, 163, 255);
+  font-family: "Anonymous Pro", monospace;
+}
+
+.gfx-btn {
+  margin-top: 0.2pc;
+  margin-right: 2.5pc;
+  margin-bottom: 10px;
+  margin-left: 1.1pc;
+  line-height: 0pt;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15pt;
+  padding: 20px;
+  color: rgb(92, 163, 255);
+  background-color: var(--main-bg-color);
+  border-image: none;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-top-color: rgb(92, 163, 255);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0.020833333in;
+  border-right-width: 0.020833333in;
+  border-bottom-width: 0.020833333in;
+  border-left-width: 0.020833333in;
+  height: 0in;
+  max-width: 200px;
+  border-right-color: rgb(92, 163, 255);
+  transition: transform 0.2s;
+  text-align: center;
+  border-bottom-color: rgb(92, 163, 255);
+  border-left-color: rgb(92, 163, 255);
+  justify-content: flex-end;
+  display: flex;
+  position: absolute;
+}
+
+.gfx-btn:hover {
+  transform: scale(1.1);
+  color: var(--main-bg-color);
+  background-color: rgb(92, 163, 255);
 }
