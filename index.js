@@ -8,14 +8,6 @@ function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-var typed = new Typed(".auto-type", {
-    strings: ["Developer", "Game Designer", "Graphic Designer"],
-    typeSpeed: 150,
-    backSpeed: 100,
-    startDelay: 3000,
-    loop: true
-});
-
 document.getElementById("btn").onclick = function () {
     location.href = "https://nouhidev.github.io";
 };
