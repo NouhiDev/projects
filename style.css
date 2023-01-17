@@ -492,8 +492,8 @@
 }
 
 .rblx {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  border-color: rgb(179, 179, 179);
+  color: rgb(179, 179, 179);
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -508,12 +508,12 @@
   cursor: pointer;
   font-size: 15pt;
   padding: 20px;
-  color: var(--primary-color);
+  color: rgb(179, 179, 179);
   background-color: var(--main-bg-color);
   border-image: none;
   border-top-style: solid;
   border-right-style: solid;
-  border-top-color: var(--primary-color);
+  border-top-color: rgb(179, 179, 179);
   border-bottom-style: solid;
   border-left-style: solid;
   border-top-width: 0.020833333in;
@@ -522,11 +522,11 @@
   border-left-width: 0.020833333in;
   height: 0in;
   max-width: 200px;
-  border-right-color: var(--primary-color);
+  border-right-color: rgb(179, 179, 179);
   transition: transform 0.2s;
   text-align: center;
-  border-bottom-color: var(--primary-color);
-  border-left-color: var(--primary-color);
+  border-bottom-color: rgb(179, 179, 179);
+  border-left-color: rgb(179, 179, 179);
   justify-content: flex-end;
   display: flex;
   position: absolute;
@@ -535,5 +535,5 @@
 .rblx-btn:hover {
   transform: scale(1.1);
   color: var(--main-bg-color);
-  background-color: var(--primary-color);
+  background-color: rgb(179, 179, 179);
 }
