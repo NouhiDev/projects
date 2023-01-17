@@ -15,3 +15,7 @@ function back_btn() {
 function remnants_btn() {
     location.href = "https://nouhidev.github.io/remnants/";
 }
+
+function rblx_btn() {
+    location.href = "https://nouhidev.github.io/roblox-horrorlist/";
+}
