@@ -25,5 +25,5 @@ function gfx_btn() {
 }
 
 function itch_btn() {
-    location.href = "https://nouhidev.itch.io/";
+    location.href = "https://nouhidev.github.io/games/";
 }
