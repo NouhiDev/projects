@@ -12,8 +12,8 @@ function back_btn() {
     location.href = "https://nouhidev.github.io";
 }
 
-function remnants_btn() {
-    location.href = "https://nouhidev.github.io/remnants/";
+function school_projects_btn() {
+    location.href = "https://nouhidev.github.io/school-projects/";
 }
 
 function rblx_btn() {
