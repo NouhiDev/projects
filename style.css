@@ -377,38 +377,38 @@
 }
 
 .btn {
-    margin-top: 2.5pc;
-    margin-right: 2.5pc;
-    margin-bottom: 2.5pc;
-    margin-left: 2.5pc;
-    line-height: 0pt;
-    font-family: "Oswald", sans-serif;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15pt;
-    padding-top: 1.25pc;
-    padding-right: 1.25pc;
-    padding-bottom: 1.25pc;
-    padding-left: 1.25pc;
-    color: var(--primary-color);
-    background-color: var(--main-bg-color);
-    border-image: none;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-top-color: var(--primary-color);
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-width: 0.020833333in;
-    border-right-width: 0.020833333in;
-    border-bottom-width: 0.020833333in;
-    border-left-width: 0.020833333in;
-    height: 0in;
-    max-width: 200px;
-    border-right-color: var(--primary-color);
-    transition: transform 0.2s;
-    text-align: center;
-    border-bottom-color: var(--primary-color);
-    border-left-color: var(--primary-color);
+  margin-top: 2.5pc;
+  margin-right: 2.5pc;
+  margin-bottom: 2.5pc;
+  margin-left: 2.5pc;
+  line-height: 0pt;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15pt;
+  padding-top: 1.25pc;
+  padding-right: 1.25pc;
+  padding-bottom: 1.25pc;
+  padding-left: 1.25pc;
+  color: var(--primary-color);
+  background-color: var(--main-bg-color);
+  border-image: none;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-top-color: var(--primary-color);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0.020833333in;
+  border-right-width: 0.020833333in;
+  border-bottom-width: 0.020833333in;
+  border-left-width: 0.020833333in;
+  height: 0in;
+  max-width: 200px;
+  border-right-color: var(--primary-color);
+  transition: transform 0.2s;
+  text-align: center;
+  border-bottom-color: var(--primary-color);
+  border-left-color: var(--primary-color);
 }
 
 .projects-container {
@@ -487,9 +487,9 @@
 }
 
 .remnants-btn:hover {
-    transform: scale(1.1);
-    color: var(--main-bg-color);
-    background-color: #e3a675;
+  transform: scale(1.1);
+  color: var(--main-bg-color);
+  background-color: #e3a675;
 }
 
 .rblx {
@@ -585,7 +585,6 @@
   color: var(--main-bg-color);
   background-color: var(--primary-color);
 }
-
 
 .gfx {
   border-color: rgb(92, 163, 255);
