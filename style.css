@@ -354,9 +354,6 @@
 :root {
   --bg-color: rgb(20, 20, 20);
   --card-color: rgb(23, 23, 23);
-
-  --mouse-x: 0;
-  --mouse-y: 0;
 }
 
 /* #region Cards Styling */
