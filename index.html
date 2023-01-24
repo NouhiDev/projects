@@ -6,7 +6,7 @@
     <meta name="title" content="nouhidev" />
     <meta
       name="description"
-      content="View nouhidev's projects such as REMNANTS, Roblox Horrorlist, etc."
+      content="Features a list of the projects nouhidev created in the past years."
     />
     <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=0.5" />
@@ -14,13 +14,6 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <script src="index.js"></script>
     <!-- Google Analytics -->
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -43,63 +36,73 @@
         <div class="side"></div>
       </div>
     </div>
-    
+
     <div class="content">
-      <h1 class="title">projects</h1>
-      <h1 class="subtitle">LIST OF MY MOST IMPORTANT PROJECTS</h1>
-      <div class="projects-container">
-        <!-- My Games -->
-        <div class="project itch">
-          <h1 class="itch project-title">MY GAMES</h1>
-          <h2 class="project-description">View the games I developed in the past years</h2>
-          <div class="tag-container">
+      <h1 class="title">PROJECTS</h1>
+      <br><br><br>
+      <div class="cards" id="cards">
+        <!-- Games -->
+        <div class="card" onclick="games_btn()">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="./games.png">
+            </div>
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <img class="card-small-image" src="./games_sml.png">
+                <div class="card-info-title">
+                  <h3>Games</h3>  
+                  <h4>View the games I developed in the past years</h4>
+                </div>    
+              </div>
+            </div>
           </div>
-          <div class="project-btn-container">
-            <button id="itch-btn" class="itch-btn" onclick="itch_btn()">VIEW</button>
-          </div>
-        </div> 
-
+        </div>
         <!-- Graphic Design -->
-        <div class="project gfx">
-          <h1 class="gfx project-title">GRAPHIC DESIGN</h1>
-          <h2 class="project-description">View my Graphic Design Portfolio on behance.net</h2>
-          <div class="tag-container">
-          </div>
-          <div class="project-btn-container">
-            <button id="gfx-btn" class="gfx-btn" onclick="gfx_btn()">VIEW</button>
-          </div>
-        </div> 
-
-        <!-- Roblox Horrorlist -->
-        <div class="project rblx">
-          <h1 class="rblx project-title">ROBLOX HORRORLIST</h1>
-          <h2 class="project-description">Ranking of popular Roblox horror games</h2>
-          <div class="tag-container">
-          </div>
-          <div class="project-btn-container">
-            <button id="rblx-btn" class="rblx-btn" onclick="rblx_btn()">VIEW</button>
+        <div class="card" onclick="gfx_btn()">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="./behance.png">
+            </div>
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <img class="card-small-image" src="./gfx.png">
+                <div class="card-info-title">
+                  <h3>Graphic Design</h3>  
+                  <h4>View my graphic design portfolio on behance.net</h4>
+                </div>    
+              </div>
+            </div>
           </div>
         </div>
-
-        <!-- SCHOOL PROJECT -->
-        <div class="project sp">
-          <h1 class="sp project-title">SCHOOL PROJECTS</h1>
-          <h2 class="project-description">Applications/Games I had to develop for school</h2>
-          <div class="tag-container">
+        <!-- Other Projects -->
+        <div class="card" onclick="other_btn()">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="./other.png">
+            </div>
+            <div class="card-info-wrapper">
+              <div class="card-info">
+                <img class="card-small-image" src="./other_sml.png">
+                <div class="card-info-title">
+                  <h3>Other Projects</h3>  
+                  <h4>Further Applications/Games I developed e.g. for school</h4>
+                </div>    
+              </div>
+            </div>
           </div>
-          <div class="project-btn-container">
-            <button id="sp-btn" class="sp-btn" onclick="school_projects_btn()">PLAY</button>
         </div>
-        </div>
-
       </div>
 
       <!-- Back Button -->
+      <br>
       <div class="btn-container">
         <button id="btn" class="btn" onclick="back_btn()">BACK</button>
       </div>
 
       </div>
     </div>
+
+    <script  src="./index.js"></script>
   </body>
 </html>
